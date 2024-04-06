@@ -1,0 +1,75 @@
+CAR_0025_XP1_GM_H.java
+	加private String mPhoneState;
+		原因,防止数据没变化的时候也不停调用IPC
+	TO BE CONTINUE, 还没有添加:UI注册回调对象时,执行回调函数
+
+CAR_0026_xxx.java
+	加private String mPhoneState;
+	原因同CAR_0025_XP1_GM_H.java
+	
+CAR_0036_WC2_GM.java
+	加private String mNumber;
+	加private String mBtPassword;
+		原因同CAR_0025_XP1_GM_H.java
+		
+CAR_0037_xxx.java
+	DataMain.sBackcar已经改为主机倒车DataMain.sHostBackcar
+		
+CAR_0061_xxx.java
+	加private String mPhoneState;
+		原因同CAR_0025_XP1_GM_H.java
+
+CAR_0070_RZC_XP_CHANGANCS75.java
+	DataMain.sBackcar已经改为主机倒车DataMain.sHostBackcar
+	
+CAR_0108_xxx.java
+	DataMain.sBackcar已经改为主机倒车DataMain.sHostBackcar
+	
+CAR_0128_xxx.java
+	DataMain.sBackcar已经改为主机倒车DataMain.sHostBackcar
+	
+CAR_0132_xxx.java
+	DataMain.sBackcar已经改为主机倒车DataMain.sHostBackcar
+		
+CAR_0208_xxx.java
+	DataMain.sBackcar已经改为主机倒车DataMain.sHostBackcar
+
+CAR_0223_xxx.java		
+	FinalCanbus.U_AIR_CONTROL改为FinalCanbus.U_AIR_CONTROL_PAGE
+		
+CAR_0253_xxx.java
+	加private String mPhoneState;
+		原因同CAR_0025_XP1_GM_H.java
+		
+CAR_0254_xxx.java	
+	HandlerCanbus.update(FinalCanbus.U_CANBUS_VER, str);
+	改为HandlerCanbus.canbusVer(str);
+	加private String mNumber;
+	加private String mBtNumber;
+	加private String mBtPassword;
+		原因同CAR_0025_XP1_GM_H.java
+		
+CAR_0263_xxx.java
+	加private String mPhoneState;
+		原因同CAR_0025_XP1_GM_H.java
+		
+CAR_0297_xxx.java
+	DataMain.sBackcar已经改为主机倒车DataMain.sHostBackcar
+	
+CAR_0298_xxx.java
+	DataMain.sBackcar已经改为主机倒车DataMain.sHostBackcar
+		
+CAR_0308_xxx.java		
+	加private String mNumber;
+	加private String mBtNumber;
+	加private String mBtPassword;
+		原因同CAR_0025_XP1_GM_H.java
+		
+CAR_0318_xxx.java
+	加private String mPhoneState;
+		原因同CAR_0025_XP1_GM_H.java
+		
+CAR_0332_SB_XP1_SaiOu3.java
+	加private String mPhoneState;
+		原因同CAR_0025_XP1_GM_H.java
+		

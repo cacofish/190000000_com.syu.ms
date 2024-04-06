@@ -1,0 +1,2 @@
+2015/9/15
+	去掉DVR_ENABLE, 加DVR_MODE, 需要确认DVR_MODE收发命令

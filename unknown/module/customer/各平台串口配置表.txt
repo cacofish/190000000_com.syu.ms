@@ -1,0 +1,6 @@
+RKPX3
+	/dev/ttyS0  (IPOD,外挂DVD)
+	/dev/ttyS1	(蓝牙[本程序打开的是虚拟串口])
+	/dev/ttyS2	(MCU)
+	/dev/ttyS3	(GPS, BDS)
+	

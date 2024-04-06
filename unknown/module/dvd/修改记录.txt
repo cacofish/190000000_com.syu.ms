@@ -1,0 +1,10 @@
+calcExistDeviceOnDvd
+	// 2015/10/12  插入设备时,提前更新页面到loading
+			if (value != 0 && DataDvd.sPage == FinalDvd.PAGE_EJECTING)
+				HandlerDvd.page(FinalDvd.PAGE_LOADING);
+
+CmdDvd8288.mNotifyAppId
+			// 2015/10/14 提前更新到loading界面 (DEBUG,需要确认当前实际状态会把loading刷走)	
+			if (DataDvd.sExistDiscOnDvd != 0) {
+				HandlerDvd.page(FinalDvd.PAGE_LOADING);
+			}

@@ -1,0 +1,18 @@
+#播放提示音的应用
+com.fyt.localspeech		#语音助手
+#com.iflytek.speechcloud #科大讯飞
+#com.syu.voice 			#语音助手
+com.mirrtalk.app 		#微蜜
+com.syu.tire			#我们的胎压
+org.prowl.torque		#OBD
+com.comit.gooddriver	#OBD优驾
+com.syu.car				#语音播报
+com.maihong.vehicleapp	#16/5/6
+com.adasplus.cheji
+com.example.zhourong.myapplication
+com.ilincar.advertising.videoplayer.chinamobile
+com.teyes.carkit
+com.tpms3
+com.ava.car
+com.ava.acessbilityapplication
+tw.com.ainvest.outpack

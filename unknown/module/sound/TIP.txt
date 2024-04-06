@@ -1,0 +1,23 @@
+1.
+	系统报音分类
+		1.导航报音
+		2.OBD,语音助手等提示音
+		3.播放器的声音
+			
+2.	2015/9/17
+	MCU是否固定原车EQ,目前不可知
+	假设不给MCU发送EQ命令,MCU固定原车EQ (这个后续需要确认)
+	则有:
+	1.使用原车EQ要给MCU发EQ命令
+	2.不存在原车EQ,可以给MCU发EQ_MODE命令,MCU更新EQ_MODE
+	3.存在原车EQ,不使用原车EQ,APP自己更新EQ_GAIN和EQ_MODE
+		由于APP自己更新EQ_MODE需要根据客户在某些状态下切到某些值
+		目前不考虑存在原车EQ,不使用原车EQ的情况
+			
+3.	15/10/26 TIP
+	1.始终使用MCU的EQ_MODE
+	2.EQ_GAIN_MCU保存MCU的EQ_GAIN,如果使用CAR_EQ,则EQ_GAIN_MCU更新到EQ_GAIN_SRC中
+	
+4.	15/11/3 TIP
+	在xx2Ic内部进行重复的过滤 
+	

@@ -1,0 +1,577 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: Tnnd9Kf24vwvN3/G9E0sCifxoCc=
+Created-By: 1.0 (Android SignApk)
+
+Name: assets/ui/vol/cnc/mute_p.png
+SHA1-Digest: E5drENo0k8e4xQVJI2G9uwqGwFs=
+
+Name: assets/ui/guesture/up.png
+SHA1-Digest: fiOamdxjyZNC3jVCn6LWS+zt/Zw=
+
+Name: assets/ui/vol/syu_htop/1920/node.png
+SHA1-Digest: 8KIbuKezfIeLVR3PrE/oE95Ak6I=
+
+Name: assets/ui/vol/syu_htop/1280/bar_p.png
+SHA1-Digest: AJS8xcPX+enJqJ/O/UBBRty6qec=
+
+Name: assets/ui/guesture/mute.png
+SHA1-Digest: Bz9WlUO6GvPOKueOteRa8JnCMa4=
+
+Name: assets/ui/vol/zhan/node.png
+SHA1-Digest: K16EIXsO3o94DRU3NWi/74Lsxp8=
+
+Name: res/anim/trans_right_exit.xml
+SHA1-Digest: shHJVqndN5JVhKPOa0AaGC0E1sU=
+
+Name: res/raw/tp2854_mipi_4ch_720p4lane.txt
+SHA1-Digest: S3FDz9M2QiUUYzwlnRukZ1I9D2g=
+
+Name: assets/ui/vol/syu_htop/unmute_p.png
+SHA1-Digest: 9AQOI3ymma9tZTJ42AgAxlldOk0=
+
+Name: res/raw/akm7738_cram_table1.txt
+SHA1-Digest: BR8+T0upuGWnFOa2ddEPT3T16TI=
+
+Name: assets/ui/vol/syu_htop/1024/mute.png
+SHA1-Digest: iSoRR+TAP6g7BJdeJqtyZTiZrKQ=
+
+Name: assets/ui/vol/yufeng/1200/volume_bar_p.png
+SHA1-Digest: RmqiXDbPu3wTXcX+M6AnE0OltD0=
+
+Name: assets/ui/vol/zhan/1280/bar.png
+SHA1-Digest: 0hl7wvTfJ/2IKQfl83ACo91Gpig=
+
+Name: assets/ui/vol/hog_htop/bar_p.png
+SHA1-Digest: YAsv8bS3mDz7oCVz9EPKRicPvQ8=
+
+Name: res/raw/chip8918_800x480_2.txt
+SHA1-Digest: JdhtM0TlPvXeEm8+HyzRH2FKRpA=
+
+Name: assets/audio/audio_fix.txt
+SHA1-Digest: f9ZQZIw6IeB41Tnrx2RXWhybtXY=
+
+Name: res/raw/tp2854_mipi_4ch_1080p4lane.txt
+SHA1-Digest: cuqvOQcUwZoMN0u/q9iztcI09M8=
+
+Name: assets/ui/vol/syu_htop/bk.png
+SHA1-Digest: ciZ1NFiuNfv2ZgZgmVJANZoqzbo=
+
+Name: assets/T132/T132_Digital_Tv_ntsc_Cvbs.txt
+SHA1-Digest: 4PGb7MNUbMEMBwwcMsCUeJLQaIQ=
+
+Name: assets/T132/T132_AUX_Pal_Cvbs.txt
+SHA1-Digest: LEZNVutwwlyT+c02gWfWQsQ6L9w=
+
+Name: assets/ui/vol/cnc/bar.png
+SHA1-Digest: iyrtpxjAOVte8i1sV3ukslJ4kqc=
+
+Name: res/anim/scale_exit.xml
+SHA1-Digest: PFzRoTNzrIZYL6Zw3fD2yaqE0E8=
+
+Name: assets/ui/vol/syu_htop/unmute.png
+SHA1-Digest: JPEpDtEI0KjMpRwh4Xwr1+Lb40s=
+
+Name: res/raw/tp2860_ahd_1080p30.txt
+SHA1-Digest: UOIvFdeRsxYOHYJrx2jr9fGYPq0=
+
+Name: assets/ui/vol/yufeng/1200/brightness_bar_p.png
+SHA1-Digest: k4IWbtsZYn+X7eUuPAU4FGsDjtg=
+
+Name: res/raw/tp2860_tvi_1080p30.txt
+SHA1-Digest: PDzM+FHkx6HHk2/zoZppYTivX4o=
+
+Name: assets/property/navi_app.txt
+SHA1-Digest: Qu+J4htktKLTzC6QA1c35of7M3o=
+
+Name: res/raw/du561_init_data.txt
+SHA1-Digest: nj67EsRYRHEUCZG9agHVTfDKBKQ=
+
+Name: module/tpms/TIP.txt
+SHA1-Digest: O9abaPq2itEWfuKSbKWyiaoEhM8=
+
+Name: assets/ui/vol/cnc/mute.png
+SHA1-Digest: d43Gj23plxPrxQw8RrzbzIC/p9g=
+
+Name: assets/ui/vol/hog_htop/bk.png
+SHA1-Digest: utMbraF3ztlGMEu0v1OTxiOx8rQ=
+
+Name: assets/ui/vol/syu_htop/1920/bar_p.png
+SHA1-Digest: tlhRHnVfKm1Z66w54KvliX3KMds=
+
+Name: assets/ui/vol/syu_vright/mute.png
+SHA1-Digest: lddm7OfkLoAHkx8oD1PNIfUrhik=
+
+Name: assets/ui/vol/tzy_htop/1280/mute.png
+SHA1-Digest: Er308E8axDLG1SGfsdMVhvIwixs=
+
+Name: assets/property/no_sound_deal_app.txt
+SHA1-Digest: Tn8hQ4EInGoColMYARZWLsUKiYc=
+
+Name: res/raw/c7604_param_table.txt
+SHA1-Digest: vZW4mOtw0T5X9KFJUrZiGQ25t6M=
+
+Name: assets/property/tip_sound_app.txt
+SHA1-Digest: qLkVappje5V2vAXTsBMH34J8vUw=
+
+Name: assets/property/no_move_top_app.txt
+SHA1-Digest: noveDSuWPfWHCbHLpuO43nzPjF8=
+
+Name: assets/ui/vol/syu_vright/node.png
+SHA1-Digest: 4UbBNXQ5TFcBvFP/fiCR4UGoIss=
+
+Name: res/raw/akm7738fc_cram_table1.txt
+SHA1-Digest: 4w9vf+a1Rf42htH4SJDTyH74XsU=
+
+Name: assets/ui/vol/yufeng/1024/volume_bar_p.png
+SHA1-Digest: U26L1N4PDg7fncN1Hf8aEbQJUNE=
+
+Name: resources.arsc
+SHA1-Digest: vPMXPg8pMvnB+uYBynND75H7lBI=
+
+Name: assets/ui/vol/syu_htop/1920/unmute.png
+SHA1-Digest: jqZ2l0jensHKkfw83Emf6uh5bOU=
+
+Name: assets/ui/vol/syu_htop/1024/node.png
+SHA1-Digest: kc17piJylQyVv0gv1JmoREUJUxk=
+
+Name: res/raw/s8918_317_xts15_800_480.txt
+SHA1-Digest: P8BZ5CC73fuKOsedjY7ovDURZiA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: LTud8nlN9inp7BbILhM/nhkzUGQ=
+
+Name: assets/ui/vol/syu_vright/bar.png
+SHA1-Digest: pHM2KCr+L20iN06ipoxyBzfujHs=
+
+Name: assets/ui/vol/yufeng/1024/brightness_bar_p.png
+SHA1-Digest: 7iZXwNi06El9kYBi2n68bXWr3/s=
+
+Name: bsp/注意.txt
+SHA1-Digest: UMmJ2oknuyx4JsZuvcoRjbYIPZk=
+
+Name: module/main/3188平台视频端口.txt
+SHA1-Digest: MASMyPVnyHLF26FbfwsF3nmC5TY=
+
+Name: assets/ui/vol/syu_htop/bar.png
+SHA1-Digest: 1bvJKO/VZr17ZPI3ZowUCUeD6vc=
+
+Name: module/main/main模块修改记录.txt
+SHA1-Digest: tyWtMkG4H+zCKbDpoB3sVUir6pY=
+
+Name: assets/ui/vol/zhan/1280/bk.png
+SHA1-Digest: UPbN8lhC8/TolCPzFB4iAfjZN3Y=
+
+Name: assets/ui/vol/zhan/800/bk.png
+SHA1-Digest: 0uBjCwnfLdM25oQJHX/yUXXU774=
+
+Name: res/raw/c32107s_param_data_ic_1.txt
+SHA1-Digest: EHPJE5uYaJwaxLBlhcZOLuUrLSg=
+
+Name: module/customer/各平台串口配置表.txt
+SHA1-Digest: JJSUrVD3DxfbZousrAUfZHUX1uQ=
+
+Name: res/anim/scale_enter.xml
+SHA1-Digest: uhKEUzvpdaAfSDi/3eNOffX1uMo=
+
+Name: assets/app_category/navi_audio_from_playstatus.txt
+SHA1-Digest: Vy8uQgpibFcGgkHZ2OD5/AZrn2U=
+
+Name: assets/app_category/protected_app.txt
+SHA1-Digest: EJQLSkku8RTXozFTkhA3JEKfc6w=
+
+Name: assets/ui/vol/zhan/mute.png
+SHA1-Digest: OcZymCLj4CEEr4qUOEy1abCofsw=
+
+Name: assets/ui/vol/syu_vright/unmute_p.png
+SHA1-Digest: Um0M+CoUNGiV25qwatgiz5gEccc=
+
+Name: res/anim/trans_top_exit.xml
+SHA1-Digest: wYAjKTOM0pMLmxhdQvDWGbYPESw=
+
+Name: res/raw/tp2860_cbsb_n.txt
+SHA1-Digest: nulC1ZlzPjEqQFf8apNNIsluM2E=
+
+Name: assets/ui/vol/syu_htop/1024/bk.png
+SHA1-Digest: gjZ+zyPyeV8upKTL3aFv4qxVBiw=
+
+Name: res/raw/chip8918_480x272.txt
+SHA1-Digest: DTVhDKoMF4+dY6SNc7fCbNaDTRA=
+
+Name: assets/T132/T132_DVR_ntsc_Cvbs.txt
+SHA1-Digest: 5nd+AksQu8TNhv7aIX5uJkknfrg=
+
+Name: assets/ui/vol/tzy_htop/2000/unmute.png
+SHA1-Digest: zh47oRJytKs3KiMBV6tMvkE89Hs=
+
+Name: module/canbus/khd_修改记录.txt
+SHA1-Digest: 8D+R45YDD2yu60gcoiIwtsuMKj4=
+
+Name: assets/T132/T132_Rear_Pal_Cvbs.txt
+SHA1-Digest: E5rN8N4W/JS5tERHatc0nMqdrVE=
+
+Name: assets/ui/vol/tzy_htop/1280/unmute.png
+SHA1-Digest: SOaXTjn4LJpRknwIQ9dmui1r1+8=
+
+Name: assets/ui/vol/cnc/node.png
+SHA1-Digest: v0LmCWxDK+o4ZlNDzsIJa+j0LJs=
+
+Name: assets/ui/vol/syu_htop/1920/mute.png
+SHA1-Digest: Mkg+AokfmctcKBNkMjy5+Vum9ug=
+
+Name: assets/ui/vol/syu_htop/1024/unmute.png
+SHA1-Digest: tJApe/xzspyYP4++/GWjtKb6NEU=
+
+Name: res/raw/chip8918_800x500_3.txt
+SHA1-Digest: wD7bmKah1ooo0flxy2qw6Ocu9hU=
+
+Name: assets/ui/vol/yufeng/1024/volume_bar.png
+SHA1-Digest: /43Ln76Q/JmyWkmlOlAvWfP1RtE=
+
+Name: res/raw/chip8918_400x250.txt
+SHA1-Digest: Yftd3reLDPLhATOmdqf48Vh3Dl8=
+
+Name: res/raw/akm7738_pram_table2.txt
+SHA1-Digest: +rApJRWOwkJk63Z0bdjUmeUe32w=
+
+Name: assets/property/unkill_app.txt
+SHA1-Digest: HbZYXvLcV3L4WEx+Z34Jot+wPMk=
+
+Name: assets/ui/vol/syu_vright/unmute.png
+SHA1-Digest: HaqfsqKV1QJb159imqquGL8a50k=
+
+Name: assets/T132/T132_Digital_Tv_ntsc_Ypbpr.txt
+SHA1-Digest: 1hxrBYkDqY4FxhPnU9yAUbyPcn0=
+
+Name: assets/T132/T132_Analog_Tv_ntsc_Cvbs.txt
+SHA1-Digest: pTPhrN4r8UWaqEmbd9O09pVWW6A=
+
+Name: res/anim/trans_top_enter.xml
+SHA1-Digest: fr8nNFM1ELcTY1vHL/DDMPBqmVY=
+
+Name: assets/T132/T132_Vga_ntsc.txt
+SHA1-Digest: kd4wBUXybXz7ixNgr14RE8hO4Y0=
+
+Name: assets/ui/vol/yufeng/1024/node.png
+SHA1-Digest: PfjoY5R+p8AbKzzUMJ52LWxCFAI=
+
+Name: assets/T132/T132_AUX_ntsc_Cvbs.txt
+SHA1-Digest: MqqhcALsADZTOrU8/rZAQIuOM2w=
+
+Name: assets/ui/vol/hog_htop/node.png
+SHA1-Digest: QA1Pvs6EDT59h7JZRtVPDhgClxE=
+
+Name: assets/property/player_app.txt
+SHA1-Digest: o3Qkds6gg3jsEyWkqF0qdJVg8kU=
+
+Name: assets/property/player_app_unmute_ic.txt
+SHA1-Digest: hPUdEtuTqNNaTiArFNRceHMULrc=
+
+Name: assets/ui/vol/yufeng/1200/volume_mute.png
+SHA1-Digest: RMy8UegNbGouVQ4bpnHl4HMfncU=
+
+Name: res/raw/tp2860_ahd_720p30.txt
+SHA1-Digest: Hvdz+uEJX0VY7VdJy/Tm3VmErn4=
+
+Name: assets/T132/T132_Analog_Tv_others.txt
+SHA1-Digest: wIfOgnpCOi4MTIx/8J81wh/S10M=
+
+Name: assets/ui/guesture/next.png
+SHA1-Digest: DZlebufLJSONK1UYR3XpTBQKp0Y=
+
+Name: assets/property/audio_foucs_app.txt
+SHA1-Digest: 30daTP/JgjaUO+AdPQa4Gz+TG/w=
+
+Name: assets/T132/T132_Rear_ntsc_Cvbs.txt
+SHA1-Digest: xtPL1TPyegyDh/oWoAh5AjF24r0=
+
+Name: assets/ui/vol/hog_htop/unmute.png
+SHA1-Digest: DQb/eGj7qaPM1KXcTWt5M7UrPVQ=
+
+Name: assets/T132/T132_DVD_ntsc_Ypbpr.txt
+SHA1-Digest: BTeHjJSgA4J7ZOyC9NCCYadFZSQ=
+
+Name: assets/ui/vol/zhan/800/bar.png
+SHA1-Digest: Z1QjkcJrv2Qbuof4B6LPqxJPkZY=
+
+Name: assets/ui/vol/syu_htop/1920/bar.png
+SHA1-Digest: TVfC8fq9a5YQFCJmNKvNQHzkPtg=
+
+Name: assets/ui/vol/cnc/unmute.png
+SHA1-Digest: zp/EYGRZNpxC6UIOVV7BFo46KbY=
+
+Name: assets/ui/vol/yufeng/1024/volume_mute.png
+SHA1-Digest: dyk6fV41I83WFyV+z/pjqzf25a8=
+
+Name: assets/T132/T132_DVD_pal_Ypbpr.txt
+SHA1-Digest: 4BhuND903SSjP61Vatyb66oHY+g=
+
+Name: assets/ui/vol/syu_htop/mute_p.png
+SHA1-Digest: e7E0GnKlrK2kDQdZ9V/N/e+xK9Q=
+
+Name: assets/ui/vol/tzy_htop/1280/bar.png
+SHA1-Digest: RiW18bPyH7cTd6hpXBF0BH1iZbQ=
+
+Name: assets/ui/vol/cnc/bar_p.png
+SHA1-Digest: 8JmlEGHJH+/Rbsb0d/ALg3xzU0U=
+
+Name: assets/ui/vol/syu_htop/1280/unmute.png
+SHA1-Digest: jGxvDzHLQQXb6W69h+Rdyz1Lkf8=
+
+Name: res/raw/cnwav.mp3
+SHA1-Digest: 4bZqTapcDWiuoGI+npXsx+VD9o4=
+
+Name: res/raw/c32107s_program_data_ic_1.txt
+SHA1-Digest: DY10FTeceZWD3gYMocv2AScjLWA=
+
+Name: res/raw/chip8918_480x240.txt
+SHA1-Digest: IQv5yqDtfcukfNGmhA6Z2SY4NEY=
+
+Name: assets/ui/vol/syu_htop/1280/node.png
+SHA1-Digest: trMsoM58qI9x5nlRfSMUSIjju2g=
+
+Name: res/raw/please_mind_your_keys_cn.mp3
+SHA1-Digest: w3ZkFfeSynPCGrGxJ6y7OUL28pE=
+
+Name: module/dvr/DVR模块更新记录.txt
+SHA1-Digest: wtbiUm8dPkTU16PzWttFWDQ8o70=
+
+Name: res/raw/bjy.wav
+SHA1-Digest: Mowx/eiUgVCrK+gguDFYc5DmI4o=
+
+Name: res/raw/chip8918_800x480_3.txt
+SHA1-Digest: 0yhoEGR4TbzPpp4L/2lopk7ZMT4=
+
+Name: assets/ui/vol/yufeng/1200/volume.png
+SHA1-Digest: 0Ne8fcS3MleOLi8D9eo5j7EDSiw=
+
+Name: assets/ui/vol/cnc/bk.png
+SHA1-Digest: oj0t8XLuLpiw7CmVou25N5/I1hk=
+
+Name: res/raw/akm7738fc_cram_table2.txt
+SHA1-Digest: KV8mOHJru/q5L/8LTSnA5DhSD30=
+
+Name: assets/ui/vol/syu_vright/mute_p.png
+SHA1-Digest: 9Le9OvTieu+70zScwKmhdbundSc=
+
+Name: dev/readme.txt
+SHA1-Digest: hPYUz8L+1sPqx7cii3pJiKSlUUk=
+
+Name: res/raw/tp2815_4ch_tvi_720p30.txt
+SHA1-Digest: MLrY+dWg6HDQr129F4mhSBrfQ4w=
+
+Name: assets/ui/vol/yufeng/1200/brightness.png
+SHA1-Digest: B2jKryjx20oBQPjlHByWNEj/F1E=
+
+Name: res/raw/please_mind_your_keys_en.mp3
+SHA1-Digest: daXNuuj8pIoavGgoiRIY9DCr9DM=
+
+Name: res/raw/tp2860_tvi_720p30.txt
+SHA1-Digest: hzZ5OyJmVvyKlIz+L8HI1xvejCk=
+
+Name: assets/ui/vol/syu_htop/1024/bar_p.png
+SHA1-Digest: ci+10GUnqBnx6YvqIJ8ZoSJeEJM=
+
+Name: res/raw/tp2815_mipi_4ch_720p4lane.txt
+SHA1-Digest: XwR70mNoXunhvlf0dGqsenhqUic=
+
+Name: assets/ui/guesture/volume.png
+SHA1-Digest: UrU5Iewc65MqSYEPgvNwphiXH74=
+
+Name: assets/property/player_mutex_app.txt
+SHA1-Digest: MX6BOVgtzSXu0feqF7LlrRhiqsE=
+
+Name: res/raw/chip8918_800x480.txt
+SHA1-Digest: CxcwIGFXoFUlCw2L/Ie2ISF90ko=
+
+Name: assets/ui/vol/syu_htop/mute.png
+SHA1-Digest: p2mDGVHetJfZQ82NBE/pqwN6Le4=
+
+Name: module/canbus/TIP.txt
+SHA1-Digest: g2UEH9+pLStPeOzTvanlidE3jKo=
+
+Name: assets/ui/vol/cnc/unmute_p.png
+SHA1-Digest: Wg8Y7anfv4PSUetvGsy7noVj0Tg=
+
+Name: res/raw/akm7738fc_pram_table1.txt
+SHA1-Digest: Y+3E5/W3QBZraibwSn/UjxoSt/Q=
+
+Name: res/raw/tp2860_cbsb_p.txt
+SHA1-Digest: bbBpKqpCRXrGWZeCp1Z5EgN2YAY=
+
+Name: assets/property/calling_show_btapp.txt
+SHA1-Digest: y0qAJszPANsA1KU6goF6wDeoMjQ=
+
+Name: assets/T132/T132_Analog_Tv_Pal_Cvbs.txt
+SHA1-Digest: idjl2Q7WlusfA80Ffmx9L4uwRio=
+
+Name: res/anim/trans_right_enter.xml
+SHA1-Digest: 6jgHAoxBcc6NatMknG8vm2lxih4=
+
+Name: assets/ui/vol/hog_htop/bar.png
+SHA1-Digest: UtMZ3uUnzR5sNdu+n8EfuhnmJ3E=
+
+Name: assets/ui/vol/syu_vright/bk.png
+SHA1-Digest: i3cYfJV7OXnhBsTIGNLnXE1gwmw=
+
+Name: res/raw/chip8918_800x480_1.txt
+SHA1-Digest: /odWKIoN1pIiQ1eD4wVrYHg5CR0=
+
+Name: assets/ui/vol/syu_htop/1280/bar.png
+SHA1-Digest: qlGuKDBWI3eKsBVY1qOJf+vgqYU=
+
+Name: res/raw/tp2860_tvi_720p25.txt
+SHA1-Digest: 7yMuhyXz8ubTjt8qBn0imgT2IYw=
+
+Name: assets/ui/guesture/down.png
+SHA1-Digest: IDR12/oycl9TT6hr3pmEnY9w3dY=
+
+Name: assets/ui/vol/zhan/1280/bar_p.png
+SHA1-Digest: Pt+LE8aLFspFXD35SgzpI4TYfP8=
+
+Name: module/sound/TIP.txt
+SHA1-Digest: M0ntnT5EWk+v2AQOy9rkpDjPDMs=
+
+Name: res/raw/c7604_cram_table.txt
+SHA1-Digest: Ws7p8wO7EMJduvkxRitNg5LZ93Y=
+
+Name: assets/ui/vol/yufeng/1200/brightness_bar.png
+SHA1-Digest: +MK6TUj0bsOyrO0EjuaN/AhWQ8E=
+
+Name: assets/app_category/voice_app.txt
+SHA1-Digest: qfU8vWjiFG1eQ7yzHVK+339rOfs=
+
+Name: res/raw/akm7738fc_pram_table2.txt
+SHA1-Digest: DsQ8opXaYQvMSJ4T3WkITem+U5A=
+
+Name: assets/ui/vol/tzy_htop/2000/bar.png
+SHA1-Digest: jRZmqHPvtLeKsPqFWS89vHd56SI=
+
+Name: res/raw/conf_platform.xml
+SHA1-Digest: ed89Bjux7GR8wbYusqNYpYp8wGY=
+
+Name: assets/ui/vol/syu_htop/1920/bk.png
+SHA1-Digest: ValQnNBOQEDtqHKS3gEs8+36M0o=
+
+Name: res/drawable/ic_launcher.png
+SHA1-Digest: jLBjG9QWf/bRdV9Y612Av3qqrN4=
+
+Name: res/raw/tp2860_ahd_1080p25.txt
+SHA1-Digest: Lgrk8Bi/s0CNqRbGP+RawzGgGwk=
+
+Name: assets/ui/vol/yufeng/1024/volume.png
+SHA1-Digest: IXu2ULEQkBVODPhHlM+bAml355Y=
+
+Name: assets/T132/T132_DVR_Pal_Cvbs.txt
+SHA1-Digest: H4R9lpQ7ajDDzU10lrigHFQG0KQ=
+
+Name: assets/ui/vol/syu_vright/bar_p.png
+SHA1-Digest: bWoXnqkK7x59HJPhDKcnRHBmZ3w=
+
+Name: assets/ui/vol/syu_htop/1280/bk.png
+SHA1-Digest: LJlrH3Anv8Vd5XnK/GqV7jrYk2c=
+
+Name: assets/ui/vol/yufeng/1024/brightness.png
+SHA1-Digest: 5I9ihVNsPgldsmFzeiZyBmLpKXs=
+
+Name: assets/ui/vol/syu_htop/1280/mute.png
+SHA1-Digest: BeQJaCKKiTyMcwHodU+I5u5Y5us=
+
+Name: assets/ui/vol/syu_htop/node.png
+SHA1-Digest: Emx4lXnUyVLEcFuEEK892mismds=
+
+Name: res/raw/tsy.wav
+SHA1-Digest: SXWcGfdQLH8SZ/a2eTtkk4Qmyx4=
+
+Name: res/raw/akm7738_pram_table1.txt
+SHA1-Digest: w34y3kD3LsrUx0NELfnPWn227HY=
+
+Name: assets/ui/guesture/prev.png
+SHA1-Digest: 8pqVnqnI2oXggZRcIPZGKj8QTsA=
+
+Name: assets/ui/vol/syu_htop/1024/bar.png
+SHA1-Digest: 4uRSWq/LqIcj1Q8MyvITqZhcvds=
+
+Name: assets/ui/vol/yufeng/1024/brightness_bar.png
+SHA1-Digest: 2vQ210WfOGhuc9cDXlgS4sIwWcE=
+
+Name: assets/ui/vol/zhan/1024/bar.png
+SHA1-Digest: d8yLr08oLISpwozk84u+xodCfT4=
+
+Name: module/dvd/修改记录.txt
+SHA1-Digest: E+g7Iy+HJqHwR+5mwZBnnQ0cK7A=
+
+Name: res/raw/tp2815_mipi_4ch_1080p4lane.txt
+SHA1-Digest: Grc705vjiPUcU/7b4OjpjJO4s3s=
+
+Name: assets/ui/vol/tzy_htop/1280/bar_p.png
+SHA1-Digest: Hrpa1sTJpplP31qBDsQl+3/J1tc=
+
+Name: res/raw/c7604_reg_table.txt
+SHA1-Digest: VsqVrnBTbx7AR0G9JgCKoabUvRw=
+
+Name: assets/ui/vol/tzy_htop/2000/bar_p.png
+SHA1-Digest: BZkvxAodi48TrXLDgqmZl1nRPbY=
+
+Name: module/canbus/添加记录.txt
+SHA1-Digest: ppHRXMx6nrccykt4aXLRIRvowCk=
+
+Name: assets/ui/vol/yufeng/1200/volume_bar.png
+SHA1-Digest: BmzLlASlUu/eh2pq7zzi3oZL0vs=
+
+Name: res/raw/tp2860_tvi_1080p25.txt
+SHA1-Digest: vhIbfvje5tXwk+TqGDjXC8q4AYg=
+
+Name: res/raw/tp2860_ahd_720p25.txt
+SHA1-Digest: xYw2IFEEX2jgNChS4+jS4S4pD90=
+
+Name: assets/ui/vol/hog_htop/mute.png
+SHA1-Digest: tsDUFv5yewbVm4EtP3rijJ2lKOs=
+
+Name: assets/ui/vol/zhan/800/bar_p.png
+SHA1-Digest: kj7uNVWOYRol9Doo53N93zhI0Dk=
+
+Name: module/obd/TIP.txt
+SHA1-Digest: Dj+2HF2j6198QxQGuPzMxnFQqIA=
+
+Name: res/raw/test.wav
+SHA1-Digest: MekQdkq/LVrX3ocYNF20kKo+rPQ=
+
+Name: assets/ui/vol/zhan/1024/bar_p.png
+SHA1-Digest: jeXKtiZMo1maPhF64ISXplaJDcM=
+
+Name: assets/ui/vol/tzy_htop/2000/mute.png
+SHA1-Digest: VsQrSNx3RymIZMGVxGxMJBXOStQ=
+
+Name: assets/ui/vol/zhan/unmute.png
+SHA1-Digest: UfsSHDxy7Q+WeXlRIUtBpvu9CDk=
+
+Name: res/raw/chip8918_800x500_2.txt
+SHA1-Digest: 6N/0injWxSXDLopAPjw/HvHXsgo=
+
+Name: res/raw/chip8918_640x240_1.txt
+SHA1-Digest: ejZimE2mmuSabMWyWkJKkYkGJaU=
+
+Name: res/raw/chip8918_640x240.txt
+SHA1-Digest: V0GAQn3BN4jm6LB3fd/laTkwkno=
+
+Name: res/raw/s8918_ats_480_272.txt
+SHA1-Digest: jesqFGoT2sGTSTpA+fSlP2qSDsc=
+
+Name: assets/ui/vol/syu_htop/bar_p.png
+SHA1-Digest: ptbFdaq8o63X5EuLr4zFQewN/HM=
+
+Name: res/raw/akm7738_cram_table2.txt
+SHA1-Digest: ylvkLaePXBYK75c5WOSL1rJBq/8=
+
+Name: assets/ui/vol/zhan/1024/bk.png
+SHA1-Digest: 2I8RhKOPxxOHlOOY/bogERPU/3E=
+
+Name: assets/ui/guesture/bar_p.png
+SHA1-Digest: 5XXAMSpTHvKgPz/YhJFmFEBLfMI=
+
+Name: assets/T132/T132_Digital_Tv_Pal_Cvbs.txt
+SHA1-Digest: u/bHrwskXZY7a3hT5RneDt5EpM8=
+
+Name: classes.dex
+SHA1-Digest: kvfsf3HVivH8VzmaGV6BLRvqLjE=
+

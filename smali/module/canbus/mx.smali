@@ -1,0 +1,455 @@
+.class public Lmodule/canbus/mx;
+.super Lmodule/canbus/dgv;
+.source "SourceFile"
+
+
+# instance fields
+.field a:I
+
+.field b:I
+
+.field c:[[I
+
+.field d:B
+
+.field private e:Ljava/lang/Runnable;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 5
+
+    .prologue
+    const/4 v4, 0x0
+
+    const/4 v3, 0x2
+
+    .line 11
+    invoke-direct {p0}, Lmodule/canbus/dgv;-><init>()V
+
+    .line 12
+    const/16 v0, 0xff
+
+    iput v0, p0, Lmodule/canbus/mx;->b:I
+
+    .line 13
+    const/16 v0, 0xa
+
+    new-array v0, v0, [[I
+
+    .line 14
+    new-array v1, v3, [I
+
+    fill-array-data v1, :array_0
+
+    aput-object v1, v0, v4
+
+    const/4 v1, 0x1
+
+    .line 15
+    new-array v2, v3, [I
+
+    fill-array-data v2, :array_1
+
+    aput-object v2, v0, v1
+
+    .line 16
+    new-array v1, v3, [I
+
+    fill-array-data v1, :array_2
+
+    aput-object v1, v0, v3
+
+    const/4 v1, 0x3
+
+    .line 17
+    new-array v2, v3, [I
+
+    fill-array-data v2, :array_3
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x4
+
+    .line 18
+    new-array v2, v3, [I
+
+    fill-array-data v2, :array_4
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    .line 19
+    new-array v2, v3, [I
+
+    fill-array-data v2, :array_5
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    .line 20
+    new-array v2, v3, [I
+
+    fill-array-data v2, :array_6
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    .line 21
+    new-array v2, v3, [I
+
+    fill-array-data v2, :array_7
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x8
+
+    .line 22
+    new-array v2, v3, [I
+
+    fill-array-data v2, :array_8
+
+    aput-object v2, v0, v1
+
+    const/16 v1, 0x9
+
+    .line 23
+    new-array v2, v3, [I
+
+    fill-array-data v2, :array_9
+
+    aput-object v2, v0, v1
+
+    iput-object v0, p0, Lmodule/canbus/mx;->c:[[I
+
+    .line 68
+    iput-byte v4, p0, Lmodule/canbus/mx;->d:B
+
+    .line 69
+    new-instance v0, Lmodule/canbus/my;
+
+    invoke-direct {v0, p0}, Lmodule/canbus/my;-><init>(Lmodule/canbus/mx;)V
+
+    iput-object v0, p0, Lmodule/canbus/mx;->e:Ljava/lang/Runnable;
+
+    .line 11
+    return-void
+
+    .line 14
+    nop
+
+    :array_0
+    .array-data 4
+        0x1
+        0x7
+    .end array-data
+
+    .line 15
+    :array_1
+    .array-data 4
+        0x2
+        0x8
+    .end array-data
+
+    .line 16
+    :array_2
+    .array-data 4
+        0x3
+        0xc
+    .end array-data
+
+    .line 17
+    :array_3
+    .array-data 4
+        0x4
+        -0x1
+    .end array-data
+
+    .line 18
+    :array_4
+    .array-data 4
+        0x5
+        0x12
+    .end array-data
+
+    .line 19
+    :array_5
+    .array-data 4
+        0x6
+        0x1a
+    .end array-data
+
+    .line 20
+    :array_6
+    .array-data 4
+        0x7
+        -0x1
+    .end array-data
+
+    .line 21
+    :array_7
+    .array-data 4
+        0x8
+        0x1c
+    .end array-data
+
+    .line 22
+    :array_8
+    .array-data 4
+        0x9
+        0x1b
+    .end array-data
+
+    .line 23
+    :array_9
+    .array-data 4
+        0xa
+        0x2
+    .end array-data
+.end method
+
+.method static synthetic a(Lmodule/canbus/mx;)Ljava/lang/Runnable;
+    .locals 1
+
+    .prologue
+    .line 69
+    iget-object v0, p0, Lmodule/canbus/mx;->e:Ljava/lang/Runnable;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public a([BII)V
+    .locals 6
+
+    .prologue
+    const/16 v5, 0xff
+
+    const/4 v4, 0x1
+
+    const/4 v1, 0x0
+
+    .line 29
+    add-int/lit8 v0, p2, 0x1
+
+    aget-byte v0, p1, v0
+
+    packed-switch v0, :pswitch_data_0
+
+    .line 66
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 31
+    :pswitch_0
+    invoke-static {}, Lmodule/canbus/dgx;->a()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 32
+    add-int/lit8 v0, p2, 0x4
+
+    aget-byte v0, p1, v0
+
+    and-int/lit16 v0, v0, 0xff
+
+    iput v0, p0, Lmodule/canbus/mx;->b:I
+
+    move v0, v1
+
+    .line 34
+    :goto_1
+    iget-object v2, p0, Lmodule/canbus/mx;->c:[[I
+
+    array-length v2, v2
+
+    if-lt v0, v2, :cond_2
+
+    .line 44
+    :cond_1
+    :goto_2
+    iget v2, p0, Lmodule/canbus/mx;->b:I
+
+    if-eqz v2, :cond_4
+
+    .line 45
+    iget-object v2, p0, Lmodule/canbus/mx;->c:[[I
+
+    array-length v2, v2
+
+    if-ge v0, v2, :cond_0
+
+    .line 46
+    iget-byte v2, p0, Lmodule/canbus/mx;->d:B
+
+    if-nez v2, :cond_0
+
+    .line 47
+    iget-byte v2, p0, Lmodule/canbus/mx;->d:B
+
+    add-int/lit8 v2, v2, 0x1
+
+    int-to-byte v2, v2
+
+    iput-byte v2, p0, Lmodule/canbus/mx;->d:B
+
+    .line 48
+    iget-object v2, p0, Lmodule/canbus/mx;->c:[[I
+
+    aget-object v0, v2, v0
+
+    aget v0, v0, v4
+
+    invoke-static {v0, v1}, Lmodule/canbus/a/w;->a(II)V
+
+    .line 49
+    iget-object v0, p0, Lmodule/canbus/mx;->e:Ljava/lang/Runnable;
+
+    invoke-static {v0}, Lmodule/canbus/a/w;->c(Ljava/lang/Runnable;)V
+
+    goto :goto_0
+
+    .line 35
+    :cond_2
+    iget v2, p0, Lmodule/canbus/mx;->b:I
+
+    iget-object v3, p0, Lmodule/canbus/mx;->c:[[I
+
+    aget-object v3, v3, v0
+
+    aget v3, v3, v1
+
+    if-ne v2, v3, :cond_3
+
+    .line 37
+    iget v2, p0, Lmodule/canbus/mx;->b:I
+
+    if-eqz v2, :cond_1
+
+    .line 38
+    iput v0, p0, Lmodule/canbus/mx;->a:I
+
+    goto :goto_2
+
+    .line 34
+    :cond_3
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_1
+
+    .line 54
+    :cond_4
+    iget v0, p0, Lmodule/canbus/mx;->a:I
+
+    iget-object v2, p0, Lmodule/canbus/mx;->c:[[I
+
+    array-length v2, v2
+
+    if-ge v0, v2, :cond_5
+
+    iget v0, p0, Lmodule/canbus/mx;->a:I
+
+    if-eq v0, v5, :cond_5
+
+    .line 55
+    iget-object v0, p0, Lmodule/canbus/mx;->c:[[I
+
+    iget v2, p0, Lmodule/canbus/mx;->a:I
+
+    aget-object v0, v0, v2
+
+    aget v0, v0, v4
+
+    invoke-static {v0, v4}, Lmodule/canbus/a/w;->a(II)V
+
+    .line 56
+    iget-object v0, p0, Lmodule/canbus/mx;->e:Ljava/lang/Runnable;
+
+    invoke-static {v0}, Lmodule/canbus/a/w;->d(Ljava/lang/Runnable;)V
+
+    .line 57
+    iput-byte v1, p0, Lmodule/canbus/mx;->d:B
+
+    .line 60
+    :cond_5
+    iput v5, p0, Lmodule/canbus/mx;->a:I
+
+    goto :goto_0
+
+    .line 29
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x72
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public cmd(I[I[F[Ljava/lang/String;)V
+    .locals 0
+
+    .prologue
+    .line 97
+    .line 99
+    return-void
+.end method
+
+.method public d()V
+    .locals 1
+
+    .prologue
+    .line 84
+    const/4 v0, 0x5
+
+    new-array v0, v0, [I
+
+    fill-array-data v0, :array_0
+
+    .line 83
+    invoke-static {v0}, Lb/u;->b([I)V
+
+    return-void
+
+    .line 84
+    :array_0
+    .array-data 4
+        0xe3
+        0x2
+        0x24
+        0x22
+        0x9
+    .end array-data
+.end method
+
+.method public e()V
+    .locals 0
+
+    .prologue
+    .line 89
+    return-void
+.end method
+
+.method public get(I[I[F[Ljava/lang/String;)Lcom/syu/ipc/ModuleObject;
+    .locals 1
+
+    .prologue
+    .line 103
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public register(Lcom/syu/ipc/IModuleCallback;II)V
+    .locals 0
+
+    .prologue
+    .line 111
+    return-void
+.end method

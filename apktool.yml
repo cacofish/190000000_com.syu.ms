@@ -1,0 +1,38 @@
+version: 2.9.3
+apkFileName: 190000000_com.syu.ms_original.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 16
+  targetSdkVersion: 16
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 2123051715
+  versionName: 1.0
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  bsp/注意.txt: 8
+  dev/readme.txt: 8
+  module/canbus/TIP.txt: 8
+  module/canbus/khd_修改记录.txt: 8
+  module/canbus/添加记录.txt: 8
+  module/customer/各平台串口配置表.txt: 8
+  module/dvd/修改记录.txt: 8
+  module/dvr/DVR模块更新记录.txt: 8
+  module/main/3188平台视频端口.txt: 8
+  module/main/main模块修改记录.txt: 8
+  module/obd/TIP.txt: 8
+  module/sound/TIP.txt: 8
+  module/tpms/TIP.txt: 8
+doNotCompress:
+- resources.arsc
+- png
+- wav
+- mp3

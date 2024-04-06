@@ -1,0 +1,118 @@
+.class Lmodule/b/k;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic a:Lmodule/b/i;
+
+
+# direct methods
+.method constructor <init>(Lmodule/b/i;)V
+    .locals 0
+
+    .prologue
+    .line 166
+    iput-object p1, p0, Lmodule/b/k;->a:Lmodule/b/i;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 7
+
+    .prologue
+    const/4 v6, 0x5
+
+    const/4 v5, 0x4
+
+    const/4 v4, 0x3
+
+    const/4 v3, 0x0
+
+    const/4 v2, 0x7
+
+    .line 169
+    sget v0, Lmodule/sound/co;->a:I
+
+    packed-switch v0, :pswitch_data_0
+
+    .line 198
+    :goto_0
+    return-void
+
+    .line 183
+    :pswitch_0
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    const/16 v1, 0x8
+
+    aput v1, v0, v3
+
+    .line 184
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    aput v5, v0, v6
+
+    .line 185
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    const/16 v1, 0x8
+
+    aput v1, v0, v4
+
+    .line 186
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    aput v2, v0, v2
+
+    .line 187
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    const/4 v1, 0x6
+
+    aput v2, v0, v1
+
+    .line 188
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    const/4 v1, 0x2
+
+    aput v2, v0, v1
+
+    goto :goto_0
+
+    .line 192
+    :pswitch_1
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    aput v2, v0, v3
+
+    .line 193
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    aput v4, v0, v6
+
+    .line 194
+    sget-object v0, Lmodule/sound/co;->az:[I
+
+    const/4 v1, 0x6
+
+    aput v5, v0, v1
+
+    goto :goto_0
+
+    .line 169
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_0
+        :pswitch_1
+    .end packed-switch
+.end method
