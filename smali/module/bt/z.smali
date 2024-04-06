@@ -109,6 +109,14 @@
 
     move-result-object v0
 
+    new-instance v3, Lmod/mod/SyuFiles;
+
+    invoke-direct {v3}, Lmod/mod/SyuFiles;-><init>()V
+
+    invoke-virtual {v3, v0, v2}, Lmod/mod/SyuFiles;->getUserProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
     .line 92
     const-string v2, "com.lsec.calling_showapp"
 
@@ -241,8 +249,6 @@
     goto :goto_2
 
     .line 72
-    nop
-
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_1

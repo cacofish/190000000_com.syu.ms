@@ -2156,6 +2156,72 @@
     goto :goto_0
 .end method
 
+.method public static killApp(Ljava/lang/String;)V
+    .locals 3
+
+    .prologue
+    .line 562
+    invoke-static {}, Lapp/ae;->n()Landroid/app/ActivityManager;
+
+    move-result-object v0
+
+    .line 564
+    :try_start_0
+    const-string v1, ":"
+
+    invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    .line 565
+    const/4 v1, 0x0
+
+    const-string v2, ":"
+
+    invoke-virtual {p0, v2}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+
+    move-result v2
+
+    invoke-virtual {p0, v1, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 567
+    :cond_0
+    const/4 v1, 0x0
+
+    if-nez v1, :cond_1
+
+    .line 569
+    invoke-static {p0}, Lapp/aj;->k(Ljava/lang/String;)V
+
+    .line 570
+    invoke-virtual {v0, p0}, Landroid/app/ActivityManager;->forceStopPackage(Ljava/lang/String;)V
+
+    .line 571
+    sget-object v0, La/o;->c:Lutil/ai;
+
+    invoke-virtual {v0, p0}, Lutil/ai;->a(Ljava/lang/Object;)V
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 576
+    :cond_1
+    :goto_0
+    return-void
+
+    .line 573
+    :catch_0
+    move-exception v0
+
+    .line 574
+    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_0
+.end method
+
 .method public static l()Ljava/util/List;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
@@ -2275,7 +2341,7 @@
 
     .prologue
     .line 555
-    invoke-static {}, Lapp/aj;->o()V
+    invoke-static {}, Lmod/mod/SyuKillAllAppsButSome;->killAllAppsButSome()V
 
     .line 556
     return-void

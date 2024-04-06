@@ -1,5 +1,5 @@
 version: 2.9.3
-apkFileName: 190000000_com.syu.ms_original.apk
+apkFileName: 190000000_com.syu.ms_modded.apk
 isFrameworkApk: false
 usesFramework:
   ids:
@@ -33,6 +33,6 @@ unknownFiles:
   module/tpms/TIP.txt: 8
 doNotCompress:
 - resources.arsc
-- png
-- wav
 - mp3
+- wav
+- png

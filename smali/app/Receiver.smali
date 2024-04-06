@@ -911,8 +911,17 @@
 
     goto :goto_0
 
-    .line 190
     :sswitch_b
+    const-string v0, "sys.sebedition_ms"
+
+    const-string v1, "true"
+
+    invoke-static {v0, v1}, Landroid/os/SystemProperties;->set(Ljava/lang/String;Ljava/lang/String;)V
+
+    goto :goto_0
+
+    .line 190
+    :sswitch_c
     const-string v0, "ecarSendKey"
 
     invoke-virtual {p2, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
@@ -924,7 +933,7 @@
     goto :goto_0
 
     .line 193
-    :sswitch_c
+    :sswitch_d
     const-string v0, "status"
 
     invoke-virtual {p2, v0, v4}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
@@ -933,10 +942,10 @@
 
     invoke-static {v0}, Lapp/Receiver;->a(I)V
 
-    goto :goto_0
+    goto/16 :goto_0
 
     .line 196
-    :sswitch_d
+    :sswitch_e
     sget v0, Lmodule/i/e;->E:I
 
     const/4 v1, 0x3
@@ -958,13 +967,15 @@
 
     goto/16 :goto_0
 
+    nop
+
     .line 149
     :sswitch_data_0
     .sparse-switch
         -0x1 -> :sswitch_0
         0x0 -> :sswitch_1
         0x1 -> :sswitch_2
-        0x2 -> :sswitch_0
+        0x2 -> :sswitch_b
         0x3 -> :sswitch_3
         0x4 -> :sswitch_5
         0x5 -> :sswitch_6
@@ -972,9 +983,9 @@
         0x7 -> :sswitch_8
         0x8 -> :sswitch_9
         0x9 -> :sswitch_a
-        0xa -> :sswitch_b
-        0xb -> :sswitch_c
-        0xc -> :sswitch_d
+        0xa -> :sswitch_c
+        0xb -> :sswitch_d
+        0xc -> :sswitch_e
         0x67 -> :sswitch_4
     .end sparse-switch
 .end method

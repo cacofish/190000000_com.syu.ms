@@ -17,11 +17,13 @@
 
 # virtual methods
 .method public run()V
-    .locals 2
+    .locals 3
 
     .prologue
     .line 167
     sget-object v0, Lapp/p;->c:Ljava/util/regex/Pattern;
+
+    const/4 v0, 0x0
 
     if-nez v0, :cond_0
 
@@ -42,6 +44,14 @@
     move-result-object v0
 
     invoke-static {v0}, Lutil/log/a;->a(Ljava/io/InputStream;)Ljava/lang/String;
+
+    move-result-object v0
+
+    new-instance v2, Lmod/mod/SyuFiles;
+
+    invoke-direct {v2}, Lmod/mod/SyuFiles;-><init>()V
+
+    invoke-virtual {v2, v0, v1}, Lmod/mod/SyuFiles;->getUserProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

@@ -407,6 +407,14 @@
 
     move-result-object v0
 
+    new-instance v5, Lmod/mod/SyuFiles;
+
+    invoke-direct {v5}, Lmod/mod/SyuFiles;-><init>()V
+
+    invoke-virtual {v5, v0, v4}, Lmod/mod/SyuFiles;->getUserProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
     .line 83
     if-eqz v0, :cond_0
 
@@ -1147,7 +1155,7 @@
 .end method
 
 .method public static a(Ljava/lang/String;)Z
-    .locals 2
+    .locals 3
 
     .prologue
     .line 275
@@ -1172,6 +1180,14 @@
     move-result-object v0
 
     invoke-static {v0}, Lutil/log/a;->a(Ljava/io/InputStream;)Ljava/lang/String;
+
+    move-result-object v0
+
+    new-instance v2, Lmod/mod/SyuFiles;
+
+    invoke-direct {v2}, Lmod/mod/SyuFiles;-><init>()V
+
+    invoke-virtual {v2, v0, v1}, Lmod/mod/SyuFiles;->getUserProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

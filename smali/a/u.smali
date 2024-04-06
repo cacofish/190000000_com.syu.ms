@@ -370,6 +370,14 @@
     const/4 v6, 0x1
 
     .line 54
+    invoke-static {p0, p1}, Lmod/mod/SyuKeys;->keyUnit(II)I
+
+    move-result p0
+
+    invoke-static {}, Lmod/mod/SyuKeys;->returnAction()I
+
+    move-result p1
+
     const-string v0, "key"
 
     new-instance v2, Ljava/lang/StringBuilder;

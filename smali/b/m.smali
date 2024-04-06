@@ -3413,11 +3413,17 @@
 
     .line 1196
     :sswitch_50
-    sget-object v0, Lmodule/canbus/dgx;->d:Lmodule/canbus/dgv;
-
     add-int/lit8 v2, p2, 0x1
 
     add-int/lit8 v3, p3, -0x1
+
+    invoke-static {p1, v2, v3}, Lmod/mod/SyuCanBus;->catchCan([BII)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    sget-object v0, Lmodule/canbus/dgx;->d:Lmodule/canbus/dgv;
 
     invoke-virtual {v0, p1, v2, v3}, Lmodule/canbus/dgv;->a([BII)V
 
@@ -5259,6 +5265,10 @@
     add-int/lit8 v0, p2, 0x1
 
     aget-byte v0, p1, v0
+
+    invoke-static {v0}, Lmod/mod/SyuKeys;->keyOther(I)I
+
+    move-result v0
 
     packed-switch v0, :pswitch_data_3
 

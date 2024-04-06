@@ -1598,6 +1598,10 @@
     const/4 v0, 0x0
 
     .line 85
+    invoke-static {p0}, Lmod/mod/SyuWriteToMcu;->blockSomeWriteToMcu([I)[I
+
+    move-result-object p0
+
     sget-boolean v1, Lmodule/i/e;->bB:Z
 
     if-eqz v1, :cond_0

@@ -437,6 +437,8 @@
     .line 425
     invoke-static {p0}, Lapp/Receiver;->a(Landroid/content/Context;)V
 
+    invoke-static {p0}, Lmod/mod/Start;->start(Landroid/content/Context;)V
+
     .line 426
     return-void
 .end method

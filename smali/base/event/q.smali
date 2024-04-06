@@ -542,3 +542,50 @@
     .line 104
     return-void
 .end method
+
+.method public callAnalog(I)Z
+    .locals 1
+
+    .prologue
+    .line 72
+    invoke-virtual {p0, p1}, Lbase/event/q;->b(I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_1
+
+    const/4 v0, 0x1
+
+    .line 75
+    :cond_0
+    :goto_0
+    return v0
+
+    .line 73
+    :cond_1
+    iget-object v0, p0, Lbase/event/q;->b:Landroid/util/SparseArray;
+
+    invoke-direct {p0, v0, p1}, Lbase/event/q;->a(Landroid/util/SparseArray;I)Z
+
+    move-result v0
+
+    .line 74
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lbase/event/q;->a:Lbase/event/o;
+
+    if-nez v0, :cond_2
+
+    const/4 v0, 0x0
+
+    goto :goto_0
+
+    :cond_2
+    iget-object v0, p0, Lbase/event/q;->a:Lbase/event/o;
+
+    invoke-virtual {v0, p1}, Lbase/event/o;->analog(I)Z
+
+    move-result v0
+
+    goto :goto_0
+.end method

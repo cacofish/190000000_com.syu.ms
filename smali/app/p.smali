@@ -656,6 +656,14 @@
 
     move v1, v2
 
+    new-instance v4, Lmod/mod/SyuFiles;
+
+    invoke-direct {v4}, Lmod/mod/SyuFiles;-><init>()V
+
+    invoke-virtual {v4, v3, p0}, Lmod/mod/SyuFiles;->getUserProperty(Ljava/io/BufferedReader;Ljava/lang/String;)Ljava/io/BufferedReader;
+
+    move-result-object v3
+
     .line 274
     :goto_0
     invoke-virtual {v3}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
@@ -829,6 +837,14 @@
     invoke-direct {v3, v2}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
     move v0, v1
+
+    new-instance v4, Lmod/mod/SyuFiles;
+
+    invoke-direct {v4}, Lmod/mod/SyuFiles;-><init>()V
+
+    invoke-virtual {v4, v3, p0}, Lmod/mod/SyuFiles;->getUserProperty(Ljava/io/BufferedReader;Ljava/lang/String;)Ljava/io/BufferedReader;
+
+    move-result-object v3
 
     .line 233
     :cond_0

@@ -4442,6 +4442,14 @@
     const/4 v6, 0x1
 
     .line 2730
+    invoke-static {p0, p1}, Lmod/mod/SyuKeys;->keyCan(II)I
+
+    move-result p0
+
+    invoke-static {}, Lmod/mod/SyuKeys;->returnAction()I
+
+    move-result p1
+
     sget v0, Lmodule/canbus/b/b;->g:I
 
     if-eq v0, v6, :cond_0
@@ -5517,6 +5525,1083 @@
 
     .line 2707
     return-void
+.end method
+
+.method public static aMain(II)V
+    .locals 8
+
+    .prologue
+    const/4 v3, 0x0
+
+    const/4 v7, 0x2
+
+    const/4 v1, 0x0
+
+    const/4 v6, 0x1
+
+    .line 2730
+    sget v0, Lmodule/canbus/b/b;->g:I
+
+    if-eq v0, v6, :cond_0
+
+    const/4 v0, -0x1
+
+    if-ne p0, v0, :cond_1
+
+    .line 2968
+    :cond_0
+    :goto_0
+    return-void
+
+    .line 2736
+    :cond_1
+    sget v0, Lmodule/i/e;->p:I
+
+    if-ne v0, v6, :cond_2
+
+    const/16 v0, 0x17
+
+    if-eq p0, v0, :cond_2
+
+    .line 2737
+    if-eqz p1, :cond_0
+
+    .line 2742
+    :cond_2
+    sget-boolean v0, Lmodule/k/d;->I:Z
+
+    if-eqz v0, :cond_3
+
+    invoke-static {}, Lmodule/k/f;->a()I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_3
+
+    .line 2743
+    if-eqz p1, :cond_0
+
+    .line 2748
+    :cond_3
+    invoke-static {}, Lchip/bh;->a()I
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    invoke-static {}, Lchip/bh;->a()I
+
+    move-result v0
+
+    if-eq v0, v6, :cond_4
+
+    .line 2749
+    if-nez p1, :cond_4
+
+    .line 2750
+    sget-object v0, Lmodule/sound/co;->b:Lmodule/sound/ck;
+
+    if-eqz v0, :cond_4
+
+    sget-object v0, Lmodule/sound/co;->b:Lmodule/sound/ck;
+
+    instance-of v0, v0, Lmodule/sound/AudioDevice;
+
+    if-eqz v0, :cond_4
+
+    .line 2751
+    sget-object v0, Lmodule/sound/co;->b:Lmodule/sound/ck;
+
+    check-cast v0, Lmodule/sound/AudioDevice;
+
+    invoke-virtual {v0, v1}, Lmodule/sound/AudioDevice;->beep(Z)V
+
+    .line 2756
+    :cond_4
+    if-nez p1, :cond_6
+
+    const/16 v0, 0xfc
+
+    if-eq p0, v0, :cond_6
+
+    .line 2757
+    sget v0, Lmodule/i/e;->g:I
+
+    if-eq v0, v6, :cond_5
+
+    sget v0, Lmodule/i/e;->k:I
+
+    if-ne v0, v6, :cond_5
+
+    .line 2758
+    invoke-static {v1}, Lmodule/i/h;->v(I)V
+
+    .line 2760
+    :cond_5
+    sget v0, Lmodule/i/e;->bi:I
+
+    if-ne v0, v6, :cond_6
+
+    .line 2761
+    invoke-static {v1}, Lmodule/i/h;->x(I)V
+
+    .line 2764
+    :cond_6
+    sget-object v0, La/m;->a:Lutil/s;
+
+    .line 2765
+    if-eqz v0, :cond_7
+
+    new-array v2, v7, [I
+
+    aput p0, v2, v1
+
+    aput p1, v2, v6
+
+    move-object v4, v3
+
+    move-object v5, v3
+
+    invoke-interface/range {v0 .. v5}, Lutil/s;->a(I[I[F[Ljava/lang/String;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_7
+
+    .line 2766
+    if-ne p1, v6, :cond_0
+
+    .line 2771
+    :cond_7
+    sget v0, Lmodule/i/e;->E:I
+
+    .line 2772
+    packed-switch p0, :pswitch_data_0
+
+    .line 2793
+    sget v2, Lmodule/i/e;->bs:I
+
+    if-ne v2, v6, :cond_d
+
+    .line 2794
+    invoke-static {v6}, La/u;->j(I)V
+
+    .line 2802
+    :cond_8
+    :goto_1
+    packed-switch p0, :pswitch_data_1
+
+    goto :goto_0
+
+    .line 2803
+    :pswitch_0
+    invoke-static {p1}, La/u;->b(I)V
+
+    goto :goto_0
+
+    .line 2774
+    :pswitch_1
+    if-nez p1, :cond_a
+
+    .line 2775
+    sget v2, Lmodule/i/e;->bs:I
+
+    if-ne v2, v7, :cond_9
+
+    .line 2776
+    invoke-static {v6}, La/u;->k(I)V
+
+    .line 2777
+    :cond_9
+    sput v6, Lmodule/i/e;->bs:I
+
+    goto :goto_1
+
+    .line 2780
+    :cond_a
+    sput v1, Lmodule/i/e;->bs:I
+
+    goto :goto_1
+
+    .line 2783
+    :pswitch_2
+    if-nez p1, :cond_c
+
+    .line 2784
+    sget v2, Lmodule/i/e;->bs:I
+
+    if-ne v2, v6, :cond_b
+
+    .line 2785
+    invoke-static {v6}, La/u;->j(I)V
+
+    .line 2787
+    :cond_b
+    sput v7, Lmodule/i/e;->bs:I
+
+    goto :goto_1
+
+    .line 2790
+    :cond_c
+    sput v1, Lmodule/i/e;->bs:I
+
+    goto :goto_1
+
+    .line 2795
+    :cond_d
+    sget v2, Lmodule/i/e;->bs:I
+
+    if-ne v2, v7, :cond_8
+
+    .line 2796
+    invoke-static {v6}, La/u;->k(I)V
+
+    goto :goto_1
+
+    .line 2804
+    :pswitch_3
+    invoke-static {p1}, La/u;->d(I)V
+
+    goto/16 :goto_0
+
+    .line 2805
+    :pswitch_4
+    invoke-static {p1}, La/u;->e(I)V
+
+    goto/16 :goto_0
+
+    .line 2807
+    :pswitch_5
+    const-string v0, "persist.fyt.canbus_key_next"
+
+    invoke-static {v0, v1}, Lapp/aj;->b(Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_e
+
+    .line 2808
+    invoke-static {p1}, Lmodule/canbus/a/w;->Z(I)V
+
+    goto/16 :goto_0
+
+    .line 2810
+    :cond_e
+    invoke-static {p1}, Lmodule/canbus/a/w;->Y(I)V
+
+    goto/16 :goto_0
+
+    .line 2813
+    :pswitch_6
+    const-string v0, "persist.fyt.canbus_key_next"
+
+    invoke-static {v0, v1}, Lapp/aj;->b(Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_f
+
+    .line 2814
+    invoke-static {p1}, Lmodule/canbus/a/w;->Y(I)V
+
+    goto/16 :goto_0
+
+    .line 2816
+    :cond_f
+    invoke-static {p1}, Lmodule/canbus/a/w;->Z(I)V
+
+    goto/16 :goto_0
+
+    .line 2818
+    :pswitch_7
+    invoke-static {p1}, La/u;->h(I)V
+
+    goto/16 :goto_0
+
+    .line 2819
+    :pswitch_8
+    invoke-static {p1}, La/u;->i(I)V
+
+    goto/16 :goto_0
+
+    .line 2821
+    :pswitch_9
+    if-nez p1, :cond_12
+
+    .line 2822
+    sput v6, Lmodule/canbus/a/w;->a:I
+
+    .line 2826
+    :cond_10
+    :goto_2
+    sget v0, Lmodule/canbus/a/w;->b:I
+
+    if-ne v0, v6, :cond_11
+
+    .line 2827
+    const-string v0, "persist.fyt.canbus_key_volume"
+
+    invoke-static {v0, v1}, Lapp/aj;->b(Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_13
+
+    .line 2828
+    invoke-static {v6}, La/u;->j(I)V
+
+    .line 2831
+    :goto_3
+    sput v1, Lmodule/canbus/a/w;->b:I
+
+    .line 2834
+    :cond_11
+    const-string v0, "persist.fyt.canbus_key_volume"
+
+    invoke-static {v0, v1}, Lapp/aj;->b(Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_14
+
+    .line 2835
+    invoke-static {p1}, La/u;->k(I)V
+
+    goto/16 :goto_0
+
+    .line 2823
+    :cond_12
+    if-ne p1, v6, :cond_10
+
+    .line 2824
+    sput v1, Lmodule/canbus/a/w;->a:I
+
+    goto :goto_2
+
+    .line 2830
+    :cond_13
+    invoke-static {v6}, La/u;->k(I)V
+
+    goto :goto_3
+
+    .line 2837
+    :cond_14
+    invoke-static {p1}, La/u;->j(I)V
+
+    goto/16 :goto_0
+
+    .line 2840
+    :pswitch_a
+    if-nez p1, :cond_17
+
+    .line 2841
+    sput v6, Lmodule/canbus/a/w;->b:I
+
+    .line 2845
+    :cond_15
+    :goto_4
+    sget v0, Lmodule/canbus/a/w;->a:I
+
+    if-ne v0, v6, :cond_16
+
+    .line 2846
+    const-string v0, "persist.fyt.canbus_key_volume"
+
+    invoke-static {v0, v1}, Lapp/aj;->b(Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_18
+
+    .line 2847
+    invoke-static {v6}, La/u;->k(I)V
+
+    .line 2850
+    :goto_5
+    sput v1, Lmodule/canbus/a/w;->a:I
+
+    .line 2853
+    :cond_16
+    const-string v0, "persist.fyt.canbus_key_volume"
+
+    invoke-static {v0, v1}, Lapp/aj;->b(Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_19
+
+    .line 2854
+    invoke-static {p1}, La/u;->j(I)V
+
+    goto/16 :goto_0
+
+    .line 2842
+    :cond_17
+    if-ne p1, v6, :cond_15
+
+    .line 2843
+    sput v1, Lmodule/canbus/a/w;->b:I
+
+    goto :goto_4
+
+    .line 2849
+    :cond_18
+    invoke-static {v6}, La/u;->j(I)V
+
+    goto :goto_5
+
+    .line 2856
+    :cond_19
+    invoke-static {p1}, La/u;->k(I)V
+
+    goto/16 :goto_0
+
+    .line 2858
+    :pswitch_b
+    invoke-static {p1}, La/u;->h(I)V
+
+    goto/16 :goto_0
+
+    .line 2859
+    :pswitch_c
+    invoke-static {p1}, La/u;->m(I)V
+
+    goto/16 :goto_0
+
+    .line 2860
+    :pswitch_d
+    invoke-static {p1}, La/u;->n(I)V
+
+    goto/16 :goto_0
+
+    .line 2861
+    :pswitch_e
+    invoke-static {p1}, La/u;->o(I)V
+
+    goto/16 :goto_0
+
+    .line 2862
+    :pswitch_f
+    invoke-static {p1}, La/u;->q(I)V
+
+    goto/16 :goto_0
+
+    .line 2863
+    :pswitch_10
+    invoke-static {p1}, La/u;->r(I)V
+
+    goto/16 :goto_0
+
+    .line 2864
+    :pswitch_11
+    invoke-static {p1}, La/u;->s(I)V
+
+    goto/16 :goto_0
+
+    .line 2865
+    :pswitch_12
+    invoke-static {p1}, La/u;->a(I)V
+
+    goto/16 :goto_0
+
+    .line 2866
+    :pswitch_13
+    invoke-static {p1}, La/u;->t(I)V
+
+    goto/16 :goto_0
+
+    .line 2867
+    :pswitch_14
+    invoke-static {p1}, Lmodule/canbus/a/w;->d(I)V
+
+    goto/16 :goto_0
+
+    .line 2868
+    :pswitch_15
+    invoke-static {p1}, La/u;->v(I)V
+
+    goto/16 :goto_0
+
+    .line 2869
+    :pswitch_16
+    invoke-static {p1}, La/u;->w(I)V
+
+    goto/16 :goto_0
+
+    .line 2870
+    :pswitch_17
+    invoke-static {p1}, La/u;->x(I)V
+
+    goto/16 :goto_0
+
+    .line 2871
+    :pswitch_18
+    invoke-static {p1}, La/u;->y(I)V
+
+    goto/16 :goto_0
+
+    .line 2872
+    :pswitch_19
+    invoke-static {p1}, La/u;->z(I)V
+
+    goto/16 :goto_0
+
+    .line 2873
+    :pswitch_1a
+    invoke-static {p1}, La/u;->A(I)V
+
+    goto/16 :goto_0
+
+    .line 2874
+    :pswitch_1b
+    invoke-static {p1}, La/u;->B(I)V
+
+    goto/16 :goto_0
+
+    .line 2875
+    :pswitch_1c
+    invoke-static {p1}, Lmodule/canbus/a/w;->e(I)V
+
+    goto/16 :goto_0
+
+    .line 2876
+    :pswitch_1d
+    invoke-static {p1}, Lmodule/canbus/a/w;->f(I)V
+
+    goto/16 :goto_0
+
+    .line 2877
+    :pswitch_1e
+    invoke-static {p1}, Lmodule/canbus/a/w;->g(I)V
+
+    goto/16 :goto_0
+
+    .line 2878
+    :pswitch_1f
+    invoke-static {p1}, Lmodule/canbus/a/w;->i(I)V
+
+    goto/16 :goto_0
+
+    .line 2879
+    :pswitch_20
+    invoke-static {p1}, Lmodule/canbus/a/w;->j(I)V
+
+    goto/16 :goto_0
+
+    .line 2880
+    :pswitch_21
+    invoke-static {p1}, Lmodule/canbus/a/w;->k(I)V
+
+    goto/16 :goto_0
+
+    .line 2881
+    :pswitch_22
+    invoke-static {p1}, Lmodule/canbus/a/w;->l(I)V
+
+    goto/16 :goto_0
+
+    .line 2882
+    :pswitch_23
+    invoke-static {p1}, Lmodule/canbus/a/w;->m(I)V
+
+    goto/16 :goto_0
+
+    .line 2884
+    :pswitch_24
+    const-string v0, "persist.fyt.canbus_key_next"
+
+    invoke-static {v0, v1}, Lapp/aj;->b(Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_1a
+
+    .line 2885
+    invoke-static {p1}, Lmodule/canbus/a/w;->o(I)V
+
+    goto/16 :goto_0
+
+    .line 2887
+    :cond_1a
+    invoke-static {p1}, Lmodule/canbus/a/w;->n(I)V
+
+    goto/16 :goto_0
+
+    .line 2890
+    :pswitch_25
+    const-string v0, "persist.fyt.canbus_key_next"
+
+    invoke-static {v0, v1}, Lapp/aj;->b(Ljava/lang/String;I)I
+
+    move-result v0
+
+    if-ne v0, v6, :cond_1b
+
+    .line 2891
+    invoke-static {p1}, Lmodule/canbus/a/w;->n(I)V
+
+    goto/16 :goto_0
+
+    .line 2893
+    :cond_1b
+    invoke-static {p1}, Lmodule/canbus/a/w;->o(I)V
+
+    goto/16 :goto_0
+
+    .line 2895
+    :pswitch_26
+    invoke-static {p1}, Lmodule/canbus/a/w;->p(I)V
+
+    goto/16 :goto_0
+
+    .line 2896
+    :pswitch_27
+    invoke-static {p1}, Lmodule/canbus/a/w;->q(I)V
+
+    goto/16 :goto_0
+
+    .line 2897
+    :pswitch_28
+    invoke-static {p1}, Lmodule/canbus/a/w;->r(I)V
+
+    goto/16 :goto_0
+
+    .line 2898
+    :pswitch_29
+    invoke-static {p1}, Lmodule/canbus/a/w;->s(I)V
+
+    goto/16 :goto_0
+
+    .line 2899
+    :pswitch_2a
+    invoke-static {p1}, Lmodule/canbus/a/w;->t(I)V
+
+    goto/16 :goto_0
+
+    .line 2900
+    :pswitch_2b
+    invoke-static {p1}, Lmodule/canbus/a/w;->u(I)V
+
+    goto/16 :goto_0
+
+    .line 2901
+    :pswitch_2c
+    invoke-static {p1}, Lmodule/canbus/a/w;->v(I)V
+
+    goto/16 :goto_0
+
+    .line 2902
+    :pswitch_2d
+    invoke-static {p1}, Lmodule/canbus/a/w;->w(I)V
+
+    goto/16 :goto_0
+
+    .line 2903
+    :pswitch_2e
+    invoke-static {p1}, Lmodule/canbus/a/w;->x(I)V
+
+    goto/16 :goto_0
+
+    .line 2904
+    :pswitch_2f
+    invoke-static {p1}, Lmodule/canbus/a/w;->y(I)V
+
+    goto/16 :goto_0
+
+    .line 2905
+    :pswitch_30
+    invoke-static {p1}, Lmodule/canbus/a/w;->z(I)V
+
+    goto/16 :goto_0
+
+    .line 2906
+    :pswitch_31
+    invoke-static {p1}, Lmodule/canbus/a/w;->A(I)V
+
+    goto/16 :goto_0
+
+    .line 2907
+    :pswitch_32
+    invoke-static {p1}, Lmodule/canbus/a/w;->B(I)V
+
+    goto/16 :goto_0
+
+    .line 2908
+    :pswitch_33
+    invoke-static {p1}, Lmodule/canbus/a/w;->C(I)V
+
+    goto/16 :goto_0
+
+    .line 2909
+    :pswitch_34
+    invoke-static {p1}, Lmodule/canbus/a/w;->D(I)V
+
+    goto/16 :goto_0
+
+    .line 2910
+    :pswitch_35
+    invoke-static {p1}, Lmodule/canbus/a/w;->E(I)V
+
+    goto/16 :goto_0
+
+    .line 2911
+    :pswitch_36
+    invoke-static {p1}, Lmodule/canbus/a/w;->F(I)V
+
+    goto/16 :goto_0
+
+    .line 2912
+    :pswitch_37
+    invoke-static {p1}, Lmodule/canbus/a/w;->G(I)V
+
+    goto/16 :goto_0
+
+    .line 2913
+    :pswitch_38
+    invoke-static {p1}, Lmodule/canbus/a/w;->H(I)V
+
+    goto/16 :goto_0
+
+    .line 2914
+    :pswitch_39
+    invoke-static {p1}, Lmodule/canbus/a/w;->I(I)V
+
+    goto/16 :goto_0
+
+    .line 2915
+    :pswitch_3a
+    invoke-static {p1}, Lmodule/canbus/a/w;->J(I)V
+
+    goto/16 :goto_0
+
+    .line 2916
+    :pswitch_3b
+    invoke-static {p1}, Lmodule/canbus/a/w;->K(I)V
+
+    goto/16 :goto_0
+
+    .line 2917
+    :pswitch_3c
+    invoke-static {p1}, Lmodule/canbus/a/w;->L(I)V
+
+    goto/16 :goto_0
+
+    .line 2918
+    :pswitch_3d
+    invoke-static {p1}, Lmodule/canbus/a/w;->M(I)V
+
+    goto/16 :goto_0
+
+    .line 2919
+    :pswitch_3e
+    invoke-static {p1}, Lmodule/canbus/a/w;->N(I)V
+
+    goto/16 :goto_0
+
+    .line 2920
+    :pswitch_3f
+    invoke-static {p1}, Lmodule/canbus/a/w;->O(I)V
+
+    goto/16 :goto_0
+
+    .line 2921
+    :pswitch_40
+    invoke-static {p1}, Lmodule/canbus/a/w;->P(I)V
+
+    goto/16 :goto_0
+
+    .line 2922
+    :pswitch_41
+    invoke-static {p1}, Lmodule/canbus/a/w;->S(I)V
+
+    goto/16 :goto_0
+
+    .line 2923
+    :pswitch_42
+    invoke-static {p1}, Lmodule/canbus/a/w;->T(I)V
+
+    goto/16 :goto_0
+
+    .line 2924
+    :pswitch_43
+    invoke-static {p1}, Lmodule/canbus/a/w;->U(I)V
+
+    goto/16 :goto_0
+
+    .line 2925
+    :pswitch_44
+    invoke-static {p1}, Lmodule/canbus/a/w;->V(I)V
+
+    goto/16 :goto_0
+
+    .line 2926
+    :pswitch_45
+    invoke-static {p1}, Lmodule/canbus/a/w;->W(I)V
+
+    goto/16 :goto_0
+
+    .line 2927
+    :pswitch_46
+    invoke-static {p1}, Lmodule/canbus/a/w;->X(I)V
+
+    goto/16 :goto_0
+
+    .line 2928
+    :pswitch_47
+    invoke-static {p1}, Lmodule/canbus/a/w;->aa(I)V
+
+    goto/16 :goto_0
+
+    .line 2929
+    :pswitch_48
+    invoke-static {p1}, Lmodule/canbus/a/w;->c(I)V
+
+    goto/16 :goto_0
+
+    .line 2930
+    :pswitch_49
+    invoke-static {p1}, Lmodule/canbus/a/w;->ai(I)V
+
+    goto/16 :goto_0
+
+    .line 2931
+    :pswitch_4a
+    invoke-static {p1}, Lmodule/canbus/a/w;->ah(I)V
+
+    goto/16 :goto_0
+
+    .line 2932
+    :pswitch_4b
+    invoke-static {p1}, Lmodule/canbus/a/w;->aj(I)V
+
+    goto/16 :goto_0
+
+    .line 2933
+    :pswitch_4c
+    invoke-static {p1}, Lmodule/canbus/a/w;->ab(I)V
+
+    goto/16 :goto_0
+
+    .line 2934
+    :pswitch_4d
+    invoke-static {p1}, Lmodule/canbus/a/w;->ac(I)V
+
+    goto/16 :goto_0
+
+    .line 2935
+    :pswitch_4e
+    invoke-static {p1}, Lmodule/canbus/a/w;->ad(I)V
+
+    goto/16 :goto_0
+
+    .line 2936
+    :pswitch_4f
+    invoke-static {p1}, Lmodule/canbus/a/w;->ae(I)V
+
+    goto/16 :goto_0
+
+    .line 2937
+    :pswitch_50
+    invoke-static {p1}, Lmodule/canbus/a/w;->af(I)V
+
+    goto/16 :goto_0
+
+    .line 2938
+    :pswitch_51
+    invoke-static {p1}, Lmodule/canbus/a/w;->ag(I)V
+
+    goto/16 :goto_0
+
+    .line 2939
+    :pswitch_52
+    invoke-static {}, Lutil/x;->au()V
+
+    goto/16 :goto_0
+
+    .line 2941
+    :pswitch_53
+    if-nez p1, :cond_1d
+
+    .line 2942
+    sget v0, Lmodule/canbus/dgx;->o:I
+
+    if-ne v0, v7, :cond_1c
+
+    .line 2943
+    invoke-static {v6}, Lmodule/canbus/a/w;->b(I)V
+
+    goto/16 :goto_0
+
+    .line 2945
+    :cond_1c
+    invoke-static {v1}, Lmodule/canbus/a/w;->b(I)V
+
+    goto/16 :goto_0
+
+    .line 2949
+    :cond_1d
+    :pswitch_54
+    if-nez p1, :cond_1f
+
+    .line 2950
+    sget v0, Lmodule/canbus/dgx;->o:I
+
+    if-ne v0, v7, :cond_1e
+
+    .line 2951
+    invoke-static {v1}, Lmodule/canbus/a/w;->b(I)V
+
+    goto/16 :goto_0
+
+    .line 2953
+    :cond_1e
+    invoke-static {v6}, Lmodule/canbus/a/w;->b(I)V
+
+    goto/16 :goto_0
+
+    .line 2958
+    :cond_1f
+    :pswitch_55
+    if-nez p1, :cond_0
+
+    .line 2959
+    invoke-static {}, Lutil/x;->b()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "com.zjinnova.zlink"
+
+    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_20
+
+    .line 2960
+    const/16 v0, 0x42
+
+    invoke-static {v0}, Lapp/aj;->a(I)V
+
+    goto/16 :goto_0
+
+    .line 2961
+    :cond_20
+    invoke-static {}, Lutil/x;->b()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, Lapp/aj;->c(Ljava/lang/String;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_21
+
+    .line 2962
+    invoke-static {v0}, Lapp/aj;->f(I)V
+
+    goto/16 :goto_0
+
+    .line 2964
+    :cond_21
+    invoke-static {v1}, Lmodule/canbus/a/w;->h(I)V
+
+    goto/16 :goto_0
+
+    .line 2772
+    :pswitch_data_0
+    .packed-switch 0x7
+        :pswitch_1
+        :pswitch_2
+    .end packed-switch
+
+    .line 2802
+    :pswitch_data_1
+    .packed-switch 0x0
+        :pswitch_0
+        :pswitch_3
+        :pswitch_4
+        :pswitch_5
+        :pswitch_6
+        :pswitch_7
+        :pswitch_8
+        :pswitch_9
+        :pswitch_a
+        :pswitch_b
+        :pswitch_c
+        :pswitch_d
+        :pswitch_e
+        :pswitch_f
+        :pswitch_10
+        :pswitch_11
+        :pswitch_12
+        :pswitch_13
+        :pswitch_14
+        :pswitch_15
+        :pswitch_16
+        :pswitch_17
+        :pswitch_18
+        :pswitch_19
+        :pswitch_1a
+        :pswitch_1b
+        :pswitch_1c
+        :pswitch_1d
+        :pswitch_1e
+        :pswitch_1f
+        :pswitch_20
+        :pswitch_21
+        :pswitch_22
+        :pswitch_23
+        :pswitch_24
+        :pswitch_25
+        :pswitch_26
+        :pswitch_27
+        :pswitch_28
+        :pswitch_29
+        :pswitch_2a
+        :pswitch_2b
+        :pswitch_2c
+        :pswitch_2d
+        :pswitch_2e
+        :pswitch_2f
+        :pswitch_30
+        :pswitch_31
+        :pswitch_32
+        :pswitch_33
+        :pswitch_34
+        :pswitch_35
+        :pswitch_36
+        :pswitch_37
+        :pswitch_38
+        :pswitch_39
+        :pswitch_3a
+        :pswitch_3b
+        :pswitch_3c
+        :pswitch_3d
+        :pswitch_3e
+        :pswitch_3f
+        :pswitch_40
+        :pswitch_41
+        :pswitch_42
+        :pswitch_43
+        :pswitch_44
+        :pswitch_45
+        :pswitch_46
+        :pswitch_47
+        :pswitch_48
+        :pswitch_49
+        :pswitch_4a
+        :pswitch_4b
+        :pswitch_4c
+        :pswitch_4d
+        :pswitch_4e
+        :pswitch_4f
+        :pswitch_50
+        :pswitch_52
+        :pswitch_53
+        :pswitch_54
+        :pswitch_55
+        :pswitch_51
+    .end packed-switch
 .end method
 
 .method public static aa(I)V

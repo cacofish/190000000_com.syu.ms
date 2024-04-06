@@ -72,3 +72,4 @@ com.ivicar.avm
 com.syu.hicar
 com.yf.teyesspotify
 com.syu.doublecamera
+mod.accessibility.service
